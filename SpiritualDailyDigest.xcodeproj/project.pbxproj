@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FCA28B52A8AB5F800D4C58E /* SpiritualDailyDigestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28B42A8AB5F800D4C58E /* SpiritualDailyDigestApp.swift */; };
+		3FCA28B72A8AB5F800D4C58E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28B62A8AB5F800D4C58E /* ContentView.swift */; };
+		3FCA28B92A8AB5F900D4C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA28B82A8AB5F900D4C58E /* Assets.xcassets */; };
+		3FCA28BC2A8AB5F900D4C58E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA28BB2A8AB5F900D4C58E /* Preview Assets.xcassets */; };
+		3FCA28C62A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28C52A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift */; };
+		3FCA28D02A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */; };
+		3FCA28D22A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCA28C22A8AB5F900D4C58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCA28A92A8AB5F800D4C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCA28B02A8AB5F800D4C58E;
+			remoteInfo = SpiritualDailyDigest;
+		};
+		3FCA28CC2A8AB5F900D4C58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCA28A92A8AB5F800D4C58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCA28B02A8AB5F800D4C58E;
+			remoteInfo = SpiritualDailyDigest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FCA28B12A8AB5F800D4C58E /* SpiritualDailyDigest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualDailyDigest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA28B42A8AB5F800D4C58E /* SpiritualDailyDigestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestApp.swift; sourceTree = "<group>"; };
+		3FCA28B62A8AB5F800D4C58E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FCA28B82A8AB5F900D4C58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCA28BB2A8AB5F900D4C58E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FCA28C12A8AB5F900D4C58E /* SpiritualDailyDigestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritualDailyDigestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA28C52A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestTests.swift; sourceTree = "<group>"; };
+		3FCA28CB2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritualDailyDigestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestUITests.swift; sourceTree = "<group>"; };
+		3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCA28AE2A8AB5F800D4C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA28BE2A8AB5F900D4C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA28C82A8AB5F900D4C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCA28A82A8AB5F800D4C58E = {
+			isa = PBXGroup;
+			children = (
+				3FCA28B32A8AB5F800D4C58E /* SpiritualDailyDigest */,
+				3FCA28C42A8AB5F900D4C58E /* SpiritualDailyDigestTests */,
+				3FCA28CE2A8AB5F900D4C58E /* SpiritualDailyDigestUITests */,
+				3FCA28B22A8AB5F800D4C58E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCA28B22A8AB5F800D4C58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA28B12A8AB5F800D4C58E /* SpiritualDailyDigest.app */,
+				3FCA28C12A8AB5F900D4C58E /* SpiritualDailyDigestTests.xctest */,
+				3FCA28CB2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCA28B32A8AB5F800D4C58E /* SpiritualDailyDigest */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA28B42A8AB5F800D4C58E /* SpiritualDailyDigestApp.swift */,
+				3FCA28B62A8AB5F800D4C58E /* ContentView.swift */,
+				3FCA28B82A8AB5F900D4C58E /* Assets.xcassets */,
+				3FCA28BA2A8AB5F900D4C58E /* Preview Content */,
+			);
+			path = SpiritualDailyDigest;
+			sourceTree = "<group>";
+		};
+		3FCA28BA2A8AB5F900D4C58E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA28BB2A8AB5F900D4C58E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FCA28C42A8AB5F900D4C58E /* SpiritualDailyDigestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA28C52A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift */,
+			);
+			path = SpiritualDailyDigestTests;
+			sourceTree = "<group>";
+		};
+		3FCA28CE2A8AB5F900D4C58E /* SpiritualDailyDigestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */,
+				3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */,
+			);
+			path = SpiritualDailyDigestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCA28B02A8AB5F800D4C58E /* SpiritualDailyDigest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA28D52A8AB5F900D4C58E /* Build configuration list for PBXNativeTarget "SpiritualDailyDigest" */;
+			buildPhases = (
+				3FCA28AD2A8AB5F800D4C58E /* Sources */,
+				3FCA28AE2A8AB5F800D4C58E /* Frameworks */,
+				3FCA28AF2A8AB5F800D4C58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpiritualDailyDigest;
+			productName = SpiritualDailyDigest;
+			productReference = 3FCA28B12A8AB5F800D4C58E /* SpiritualDailyDigest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCA28C02A8AB5F900D4C58E /* SpiritualDailyDigestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA28D82A8AB5F900D4C58E /* Build configuration list for PBXNativeTarget "SpiritualDailyDigestTests" */;
+			buildPhases = (
+				3FCA28BD2A8AB5F900D4C58E /* Sources */,
+				3FCA28BE2A8AB5F900D4C58E /* Frameworks */,
+				3FCA28BF2A8AB5F900D4C58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCA28C32A8AB5F900D4C58E /* PBXTargetDependency */,
+			);
+			name = SpiritualDailyDigestTests;
+			productName = SpiritualDailyDigestTests;
+			productReference = 3FCA28C12A8AB5F900D4C58E /* SpiritualDailyDigestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FCA28CA2A8AB5F900D4C58E /* SpiritualDailyDigestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA28DB2A8AB5F900D4C58E /* Build configuration list for PBXNativeTarget "SpiritualDailyDigestUITests" */;
+			buildPhases = (
+				3FCA28C72A8AB5F900D4C58E /* Sources */,
+				3FCA28C82A8AB5F900D4C58E /* Frameworks */,
+				3FCA28C92A8AB5F900D4C58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCA28CD2A8AB5F900D4C58E /* PBXTargetDependency */,
+			);
+			name = SpiritualDailyDigestUITests;
+			productName = SpiritualDailyDigestUITests;
+			productReference = 3FCA28CB2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCA28A92A8AB5F800D4C58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FCA28B02A8AB5F800D4C58E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3FCA28C02A8AB5F900D4C58E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3FCA28B02A8AB5F800D4C58E;
+					};
+					3FCA28CA2A8AB5F900D4C58E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3FCA28B02A8AB5F800D4C58E;
+					};
+				};
+			};
+			buildConfigurationList = 3FCA28AC2A8AB5F800D4C58E /* Build configuration list for PBXProject "SpiritualDailyDigest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCA28A82A8AB5F800D4C58E;
+			productRefGroup = 3FCA28B22A8AB5F800D4C58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCA28B02A8AB5F800D4C58E /* SpiritualDailyDigest */,
+				3FCA28C02A8AB5F900D4C58E /* SpiritualDailyDigestTests */,
+				3FCA28CA2A8AB5F900D4C58E /* SpiritualDailyDigestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCA28AF2A8AB5F800D4C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA28BC2A8AB5F900D4C58E /* Preview Assets.xcassets in Resources */,
+				3FCA28B92A8AB5F900D4C58E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA28BF2A8AB5F900D4C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA28C92A8AB5F900D4C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCA28AD2A8AB5F800D4C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA28B72A8AB5F800D4C58E /* ContentView.swift in Sources */,
+				3FCA28B52A8AB5F800D4C58E /* SpiritualDailyDigestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA28BD2A8AB5F900D4C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA28C62A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA28C72A8AB5F900D4C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA28D22A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift in Sources */,
+				3FCA28D02A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCA28C32A8AB5F900D4C58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCA28B02A8AB5F800D4C58E /* SpiritualDailyDigest */;
+			targetProxy = 3FCA28C22A8AB5F900D4C58E /* PBXContainerItemProxy */;
+		};
+		3FCA28CD2A8AB5F900D4C58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCA28B02A8AB5F800D4C58E /* SpiritualDailyDigest */;
+			targetProxy = 3FCA28CC2A8AB5F900D4C58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FCA28D32A8AB5F900D4C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCA28D42A8AB5F900D4C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCA28D62A8AB5F900D4C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpiritualDailyDigest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spiritual Daily Digest";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCA28D72A8AB5F900D4C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpiritualDailyDigest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spiritual Daily Digest";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FCA28D92A8AB5F900D4C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiritualDailyDigest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpiritualDailyDigest";
+			};
+			name = Debug;
+		};
+		3FCA28DA2A8AB5F900D4C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiritualDailyDigest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpiritualDailyDigest";
+			};
+			name = Release;
+		};
+		3FCA28DC2A8AB5F900D4C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpiritualDailyDigest;
+			};
+			name = Debug;
+		};
+		3FCA28DD2A8AB5F900D4C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpiritualDailyDigest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCA28AC2A8AB5F800D4C58E /* Build configuration list for PBXProject "SpiritualDailyDigest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA28D32A8AB5F900D4C58E /* Debug */,
+				3FCA28D42A8AB5F900D4C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA28D52A8AB5F900D4C58E /* Build configuration list for PBXNativeTarget "SpiritualDailyDigest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA28D62A8AB5F900D4C58E /* Debug */,
+				3FCA28D72A8AB5F900D4C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA28D82A8AB5F900D4C58E /* Build configuration list for PBXNativeTarget "SpiritualDailyDigestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA28D92A8AB5F900D4C58E /* Debug */,
+				3FCA28DA2A8AB5F900D4C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA28DB2A8AB5F900D4C58E /* Build configuration list for PBXNativeTarget "SpiritualDailyDigestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA28DC2A8AB5F900D4C58E /* Debug */,
+				3FCA28DD2A8AB5F900D4C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCA28A92A8AB5F800D4C58E /* Project object */;
+}
