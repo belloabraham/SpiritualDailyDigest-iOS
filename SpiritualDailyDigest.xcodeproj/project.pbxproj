@@ -14,6 +14,8 @@
 		3FCA28C62A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28C52A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift */; };
 		3FCA28D02A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */; };
 		3FCA28D22A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */; };
+		3FFEE5942A924D6D00819E3F /* Resource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEE5932A924D6D00819E3F /* Resource.framework */; };
+		3FFEE5952A924D6D00819E3F /* Resource.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEE5932A924D6D00819E3F /* Resource.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3FFEE5962A924D6D00819E3F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FFEE5952A924D6D00819E3F /* Resource.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3FCA28B12A8AB5F800D4C58E /* SpiritualDailyDigest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualDailyDigest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCA28B42A8AB5F800D4C58E /* SpiritualDailyDigestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestApp.swift; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 		3FCA28CB2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritualDailyDigestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestUITests.swift; sourceTree = "<group>"; };
 		3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FFEE5932A924D6D00819E3F /* Resource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Resource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFEE5942A924D6D00819E3F /* Resource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				3FCA28C42A8AB5F900D4C58E /* SpiritualDailyDigestTests */,
 				3FCA28CE2A8AB5F900D4C58E /* SpiritualDailyDigestUITests */,
 				3FCA28B22A8AB5F800D4C58E /* Products */,
+				3FFEE5922A924D6D00819E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +146,14 @@
 			path = SpiritualDailyDigestUITests;
 			sourceTree = "<group>";
 		};
+		3FFEE5922A924D6D00819E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFEE5932A924D6D00819E3F /* Resource.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +164,8 @@
 				3FCA28AD2A8AB5F800D4C58E /* Sources */,
 				3FCA28AE2A8AB5F800D4C58E /* Frameworks */,
 				3FCA28AF2A8AB5F800D4C58E /* Resources */,
+				3FFEE5902A9243F500819E3F /* ShellScript */,
+				3FFEE5962A924D6D00819E3F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +280,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFEE5902A9243F500819E3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FCA28AD2A8AB5F800D4C58E /* Sources */ = {
@@ -425,7 +474,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +504,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,7 +526,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,7 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,7 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,7 +581,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cccsharonparish.SpiritualDailyDigestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
