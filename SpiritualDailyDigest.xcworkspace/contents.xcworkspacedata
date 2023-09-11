@@ -5,6 +5,9 @@
       location = "container:"
       name = "Core">
       <FileRef
+         location = "group:Common/Common.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Resource/Resource.xcodeproj">
       </FileRef>
    </Group>
