@@ -14,6 +14,8 @@
 		3FCA28C62A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28C52A8AB5F900D4C58E /* SpiritualDailyDigestTests.swift */; };
 		3FCA28D02A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */; };
 		3FCA28D22A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */; };
+		3FF278BE2AAEF1C700FD9139 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF278BD2AAEF1C700FD9139 /* Common.framework */; };
+		3FF278BF2AAEF1C700FD9139 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF278BD2AAEF1C700FD9139 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FFEE5942A924D6D00819E3F /* Resource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEE5932A924D6D00819E3F /* Resource.framework */; };
 		3FFEE5952A924D6D00819E3F /* Resource.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFEE5932A924D6D00819E3F /* Resource.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -43,6 +45,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3FFEE5952A924D6D00819E3F /* Resource.framework in Embed Frameworks */,
+				3FF278BF2AAEF1C700FD9139 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +63,7 @@
 		3FCA28CB2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritualDailyDigestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCA28CF2A8AB5F900D4C58E /* SpiritualDailyDigestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestUITests.swift; sourceTree = "<group>"; };
 		3FCA28D12A8AB5F900D4C58E /* SpiritualDailyDigestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualDailyDigestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FF278BD2AAEF1C700FD9139 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFEE5932A924D6D00819E3F /* Resource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Resource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFEE5942A924D6D00819E3F /* Resource.framework in Frameworks */,
+				3FF278BE2AAEF1C700FD9139 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +154,7 @@
 		3FFEE5922A924D6D00819E3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FF278BD2AAEF1C700FD9139 /* Common.framework */,
 				3FFEE5932A924D6D00819E3F /* Resource.framework */,
 			);
 			name = Frameworks;
